@@ -38,6 +38,29 @@ Las siguientes ER se utilizan para identificar tipos de tokens y para el preproc
 
 Todas las palabras válidas del diccionario se almacenan en un **Hash Set** (implementado como un `Set` de Python) llamado `DiccionarioPalabrasValidas`.
 
+
+## Diagrama DFA del Analizador Léxico
+
+```mermaid
+stateDiagram-v2
+    [*] --> Q0: inicio
+    Q0 --> Q1: letra (a-z, áéíóúüñ)
+    Q0 --> Q2: dígito (0-9)
+    Q0 --> Q3: puntuación (.,;:¿?¡!)
+    Q1 --> Q1: letra (a-z, áéíóúüñ)
+    Q1 --> QF: fin de palabra
+    Q2 --> Q2: dígito (0-9)
+    Q2 --> QF: fin de número
+    Q3 --> Q3: puntuación (.,;:¿?¡!)
+    Q3 --> QF: fin de puntuación
+    Q0 --> QE: otro símbolo
+    Q1 --> QE: símbolo no válido
+    Q2 --> QE: símbolo no válido
+    Q3 --> QE: símbolo no válido
+    QE --> QF: error ortográfico
+    QF --> [*]: token generado
+```
+
 * **Justificación de Eficiencia:** El Hash Set permite realizar la operación de búsqueda (`if lexema in self.diccionario_palabras_validas`) en **tiempo constante, $O(1)$** (en promedio), lo cual es fundamental para el rendimiento al trabajar con bases de datos grandes (1000+ palabras) en comparación con una lista simple, cuya búsqueda sería lineal ($O(n)$).
 
 ### 3. Lógica de Clasificación (AFD)
