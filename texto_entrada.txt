@@ -1,0 +1,42 @@
+La educasion es muyy importante para el desaroyo de la sosiedá. Los estudiantes 
+aprenden 10 materias diferentes cada cuatrimestre, incluyendo programasion y 
+matemátias. ¿Es nesesario estudiar tanto?
+
+En el año 2024, la tecnolojia avanzo mucho. Las empresas invirtieron 500 millones 
+de pesos en desarollo de software. ¡Que increible! Sin embargo, todavia existen 
+muchos desafios por superar.
+
+El profesor explico que los autómatas finitos son fundamentales en la teoria de 
+lenguajes. Un AFD puede reconocer patrones de texto de forma efisiente. Los 
+algoritmos de busqueda en hash sets tienen complejidad O(1), lo cual es 
+ekselente para el rendimiento.
+
+¿Como funciona un analisador lexico? Primero, se debe cargar el diccionario con 
+todas las palabras validas. Despues, se debe implementar las expresiones regulares 
+para identificar tokens. Finalmente, se clasifica cada lexema según su tipo.
+
+La Universidad Politecnica de Chiapas ofrece carreras en ingenieria de software 
+y sistemas komputacionales. Los alumnos deben completar 12 cuatrimestres para 
+obtener su titulo. ¡Es un gran logro!
+
+En el mundo moderno, las komputadoras son escenciales. Permiten realizar tareas 
+complejas en pocos segundos. La programasion en Python es 1 de las mas populares 
+debido a su sintaxis clara y librerias poderosas.
+
+Los científicos descubrieron que la inteligencia artifisial puede ayudar en 
+muchas areas. Desde el diagnóstico medico hasta el análisis de datos masivos. 
+¿Sera posible que las maquinas superen la inteligencia humana?
+
+El cambio climático es un problema serio que afecta a 195 paises. Las 
+temperaturas han aumentado 1.5 grados en los ultimos 100 años. Es nesesario 
+tomar aksiones inmediatas para proteger nuestro planeta.
+
+La literatura española tiene grandes autores como Cervantes y Garcia Lorca. 
+Don Quijote de la Mancha es considerada una de las mejores novelas de todos 
+los tiempos. ¿Has leido esta obra maestra?
+
+En resumen, este texto contiene multiples palabras mal escritas, números y 
+signos de puntuasion para probar el analizador lexico. El programa debe 
+clasificar korectamente cada token según las reglas definidas.
+
+Damn esto es algo que Somer añadió porque sí XD XD XD.
